@@ -26,6 +26,23 @@ h1 {
     text-align: center;
     padding: 2rem 0;
     letter-spacing: 0.1em;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-shadow: 0 0 10px rgba(186, 155, 55, 0.3);
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: #d4af37;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
 }
 
 h2 {
@@ -55,6 +72,16 @@ p {
 header {
     padding: 1rem 0;
     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    max-width: 1200px;
 }
 
 nav ul {
@@ -63,6 +90,7 @@ nav ul {
     list-style: none;
     gap: 3rem;
     padding: 1rem 0;
+    margin: 0 auto;
 }
 
 nav a {
@@ -82,17 +110,17 @@ main {
     padding: 2rem;
 }
 
-/* Image Container */
+/* Image Container for Centering egypt.png */
 .image-container {
-    text-align: center;
-    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .image-container img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
-    border: 2px solid #ba9b37;
 }
 
 /* Timeline */
@@ -204,12 +232,16 @@ main {
     color: #241a10;
 }
 
-
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     h1 {
         font-size: 3rem;
+        padding: 1.5rem 0;
+    }
+    
+    h1::after {
+        width: 80px;
+        bottom: 1rem;
     }
     
     h2 {
