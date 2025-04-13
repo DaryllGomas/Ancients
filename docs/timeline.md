@@ -138,62 +138,70 @@ The timeline incorporates the theory that an advanced human civilization existed
 
 The website clearly distinguishes between conventional historical understanding and this alternative theory by using specific styling for theoretical timeline sections and items. This visual distinction helps users identify which content is based on mainstream archaeology versus speculative theory.
 
-## Implementation Details
+## User Interface Features
+
+The timeline includes several interactive features to enhance the user experience:
+
+### 1. Navigation
+- **Era Jump Buttons**: Quick-access buttons on the left side for jumping to different historical periods
+- **Breadcrumb Navigation**: Subtle indicator at the bottom of the screen showing current position in the timeline
+- **Smooth Scrolling**: Animated transitions between sections
+
+### 2. Search & Filtering
+- **Floating Search Icon**: Expandable search interface accessible from a subtle icon in the top-right corner
+- **Keyword Search**: Full-text search across all timeline content
+- **Advanced Filtering**: Filter by date range, content type (theoretical/conventional), category, and region
+- **Result Highlighting**: Visual highlighting of search terms in results
+
+### 3. Detailed Event Views
+- **Modal Popups**: Clicking on timeline events opens detailed information
+- **Comprehensive Content**: Each event view includes overview, details, cultural context, key figures, locations, and artifacts
+- **Event Navigation**: Browse between events within the same time period
+
+### 4. Educational Features
+- **"Did You Know?" Facts**: Interesting historical facts for each time period
+- **Refresh Option**: View different facts with a refresh button
+- **Visual Distinction**: Clear visual differentiation between theoretical and conventional content
+
+## Technical Implementation
 
 The timeline is implemented using:
 
-- **HTML**: Semantic structure with nested divs for timeline components
-- **CSS**: Custom styling with responsive design features (style.css and timeline-enhancements.css)
-- **JavaScript**: Multiple script files providing different functionality:
-  - script.js: Core animations and section collapsing
-  - timeline-data.js: Data structure for timeline events
-  - timeline-enhancements.js: Interactive search and filtering features
-
-### Key HTML Structure
-
-```html
-<div class="timeline-container">
-    <!-- Timeline Section -->
-    <div class="timeline-section">
-        <h3 class="period-title">PERIOD TITLE</h3>
-    </div>
-    
-    <!-- Timeline Item -->
-    <div class="timeline-item">
-        <div class="date">
-            <h3>DATE</h3>
-            <p>Short description</p>
-        </div>
-        <div class="timeline-dot"></div>
-        <div class="content">
-            <h3>EVENT TITLE</h3>
-            <p>Detailed description</p>
-        </div>
-    </div>
-</div>
-```
+### HTML Structure
+- Semantic HTML5 elements for accessibility and structure
+- Nested divs with consistent class naming conventions
+- Clear separation between sections and items
 
 ### CSS Styling
-
-The timeline uses several CSS techniques:
-
-- Pseudo-elements for the central timeline line
-- Flexbox for layout alignment
-- Media queries for responsive design
-- CSS transitions for smooth animations
-- Special styling for theoretical timeline sections (gold borders and subtle glow effects)
-- Dark brown background (#241a10) with gold accents (#d4af37) for an ancient aesthetic
+- **Main Styles**: `style.css` - Core styling with ancient-themed color scheme
+- **Enhancement Styles**: Multiple specialized CSS files:
+  - `timeline-enhancements.css` - Interactive element styling
+  - `modal.css` - Detailed event view styling
+  - `timeline-navigation.css` - Navigation component styling
+  - `search-enhancements.css` - Search interface styling
+  - `subtle-search.css` - Floating search icon styling
+  - `did-you-know.css` - Historical facts feature styling
+- **Techniques**:
+  - Flexbox for layout alignment
+  - CSS transitions for smooth animations
+  - Media queries for responsive design
+  - CSS variables for consistent theming
 
 ### JavaScript Functionality
-
-JavaScript provides:
-
-- Scroll-based animation to reveal timeline elements as the user scrolls
-- Collapsible/expandable timeline sections for improved navigation
-- Search functionality to filter timeline events by keywords
-- Era filtering to view specific historical periods
-- Smooth scrolling navigation with progress indicator
-- Visual highlighting of search results
+- **Modular Architecture**: Multiple specialized JS files:
+  - `script.js` - Core timeline functionality
+  - `timeline-data.js` - Structured data for all timeline events
+  - `timeline-enhancements.js` - Search and filtering features
+  - `modal.js` - Detailed event view system
+  - `timeline-navigation.js` - Navigation enhancement features
+  - `search-enhancements.js` - Advanced search capabilities
+  - `did-you-know.js` - Educational facts feature
+  - `subtle-search.js` - Floating search icon functionality
+- **Features**:
+  - Event-driven interaction handling
+  - Dynamic content generation
+  - Smooth animations and transitions
+  - Responsive behavior for all device sizes
 
 ## Maintenance and Updates
 

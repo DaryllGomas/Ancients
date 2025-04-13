@@ -179,19 +179,34 @@ Implementation should continue to follow the incremental approach, with each fea
 - < 100ms response time for interactions
 - < 5MB initial payload
 
-## Notes on Alternative History Content
+## Documentation
 
-The timeline presents both conventional historical understanding and alternative theories about a pre-cataclysm advanced civilization. Our design maintains clear visual distinction between conventional and theoretical content through styling differences.
+The project now includes comprehensive documentation in the `/docs` folder:
 
-Phase 1 implementation has enhanced this distinction through:
-- Color and border styling differences
-- Explicit labeling in detailed views
-- Separate filtering options for theoretical vs. conventional content
-- Visual cues in the "Did You Know?" feature
+- **index.md** - Documentation navigation and overview
+- **timeline.md** - Core timeline structure and features
+- **improvement-plan.md** - This document tracking planned improvements
+- **project-progress.md** - Comprehensive progress report
+- **ui-design-decisions.md** - Rationale behind UI/UX choices
+- **developer-documentation.md** - Technical details for developers
+- **fun-design-ideas.md** - Creative enhancement concepts
 
-Future phases will continue to respect this distinction while providing tools for users to explore both perspectives.
+These documents provide a complete overview of the project's current state, design decisions, technical implementation, and future plans.
 
 ## Changelog
+
+### April 12, 2025 - Update 6
+- Organized all documentation into a dedicated `/docs` folder
+- Created documentation index file for easier navigation
+- Updated README.md with project information
+- Updated file paths in documentation references
+
+### April 12, 2025 - Update 5
+- Created comprehensive documentation system
+- Added detailed project progress report
+- Created UI/UX design decisions document
+- Added technical documentation for developers
+- Updated all existing documentation
 
 ### April 12, 2025 - Update 4
 - Removed redundant scrollbar navigation on the right side
