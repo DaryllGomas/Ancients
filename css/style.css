@@ -300,3 +300,57 @@ main {
 .date, .content {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Theoretical Timeline Styling */
+.timeline-section.theoretical .period-title {
+    background-color: #241a10;
+    border: 2px solid #ba9b37;
+}
+
+.timeline-item.theoretical .date,
+.timeline-item.theoretical .content {
+    background-color: #a08a53;
+    border: 1px solid #241a10;
+    box-shadow: 0 0 10px rgba(186, 155, 55, 0.3);
+}
+
+.theory-tag {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #241a10;
+    color: #d4af37;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid #d4af37;
+}
+
+/* Special hover effects for theoretical items */
+.timeline-item.theoretical:hover .date,
+.timeline-item.theoretical:hover .content {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+/* Special dot styling for theoretical timeline */
+.timeline-item.theoretical .timeline-dot {
+    background-color: #d4af37;
+    border: none;
+}
+
+/* Responsive adjustments for theoretical elements */
+@media (max-width: 768px) {
+    .theory-tag {
+        position: static;
+        display: block;
+        margin: 5px auto;
+        width: fit-content;
+        transform: none;
+    }
+    
+    .timeline-section.theoretical .period-title {
+        padding-right: 2rem;
+    }
+}
