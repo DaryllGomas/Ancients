@@ -37,9 +37,9 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
 The timeline currently includes the following historical periods:
 
 1. **PREHISTORIC PERIOD (300,000 - 24,000 BCE)**
-2. **PRE-CATACLYSM ADVANCED CIVILIZATION (25,000 - 12,900 BCE)** [Theoretical]
-3. **THE GREAT CATACLYSM (12,900 - 11,600 BCE)** [Theoretical]
-4. **RECOVERY & KNOWLEDGE PRESERVATION (11,600 - 9,600 BCE)** [Theoretical]
+2. **PRE-CATACLYSM ADVANCED CIVILIZATION (30,000 - c. 10,950 BCE)** [Theoretical]
+3. **THE GREAT CATACLYSM (c. 10,950 - 9,750 BCE)** [Theoretical]
+4. **RECOVERY & KNOWLEDGE PRESERVATION (c. 9,750 - 9,600 BCE)** [Theoretical]
 5. **PRE-POTTERY NEOLITHIC (9,600 - 7,000 BCE)**
 6. **POTTERY NEOLITHIC (7,000 - 5,500 BCE)**
 7. **CHALCOLITHIC/COPPER AGE (5,500 - 3,000 BCE)**
@@ -135,9 +135,19 @@ The timeline currently includes the following historical periods:
    - Navigation simplification
    - Overall UI streamlining
 
-## Future Plans
+## Current Development
 
-### Phase 2: Visual & Design Improvements (Planned)
+### Phase 2: Visual & Design Improvements (In Progress)
+
+#### WebGL Portal Effect Implementation (Completed)
+- Created immersive cosmic portal/depth effect using Three.js and WebGL
+- Implemented custom shader-based ray marching for portal depth illusion
+- Added interactive elements that respond to user input
+- Included energy streams flowing toward the portal
+- Implemented performance optimizations and fallbacks for different devices
+- Added responsive design and mobile compatibility
+
+### Remaining Phase 2 Items (Planned)
 - Interactive map integration
 - Custom iconography for different event types
 - Visual enhancements with era-specific styling
@@ -154,14 +164,15 @@ The timeline currently includes the following historical periods:
 ## Progress Summary
 
 - **Phase 1**: 100% Complete ✅
-- **Phase 2**: Not Started 🔄
+- **Phase 2**: 25% Complete 🔄
 - **Phase 3**: Not Started 🔄
 
 Next priorities:
-1. Begin implementing interactive map integration
-2. Create custom iconography for different event types
-3. Enhance responsive design for better mobile experience
-4. Implement theme options
+1. Integrate the WebGL portal effect with timeline navigation
+2. Begin implementing interactive map integration
+3. Create custom iconography for different event types
+4. Enhance responsive design for better mobile experience
+5. Implement theme options
 
 ## Conclusion
 

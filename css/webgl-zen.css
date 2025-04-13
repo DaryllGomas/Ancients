@@ -1,0 +1,157 @@
+/* WebGL Zen Space Styles */
+
+.zen-space-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+/* Make the WebGL canvas interactive when needed */
+.zen-space-container.interactive {
+    pointer-events: all;
+}
+
+/* Fallback content styles */
+.webgl-fallback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #e0d2b4;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #11071f, #2a0a4a);
+}
+
+.webgl-fallback h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d4af37;
+}
+
+.webgl-fallback p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0.5rem auto;
+}
+
+/* Portal effect enhancement */
+.portal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 10;
+    background: radial-gradient(circle at center, rgba(153, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.portal-overlay.active {
+    opacity: 1;
+}
+
+/* Loading indicator */
+.zen-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zen-loader::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9900ff;
+    border-bottom-color: #3311bb;
+    animation: spin 2s linear infinite;
+}
+
+.zen-loader::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #d4af37;
+    border-right-color: #d4af37;
+    animation: spin 1.5s linear infinite reverse;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Interactive elements */
+.zen-control-panel {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    gap: 10px;
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+
+.zen-control-panel:hover {
+    opacity: 1;
+}
+
+.zen-control-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(20, 10, 40, 0.7);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: #d4af37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.zen-control-button:hover {
+    background: rgba(40, 20, 80, 0.9);
+    border-color: rgba(212, 175, 55, 0.8);
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .zen-control-panel {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .zen-control-button {
+        width: 30px;
+        height: 30px;
+    }
+}
