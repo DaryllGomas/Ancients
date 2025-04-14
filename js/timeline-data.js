@@ -69,18 +69,90 @@ const timelineData = {
                 locations: ["Global", "Europe", "Americas"],
                 artifacts: ["Atlatls", "Harpoons", "Bone needles"],
                 imageFolder: "prehistoric/stone_tools"
+            },
+            {
+                year: "~18,000 BCE",
+                shortDesc: "Magdalenian Culture",
+                title: "EUROPE", 
+                description: "Flourishing of the Magdalenian culture in Western Europe, known for sophisticated bone/antler tools and renowned cave art (e.g., Lascaux, Altamira).",
+                details: "Placeholder: More details about Magdalenian culture, tools, and art.",
+                keyFigures: [],
+                culturalContext: "Placeholder: Cultural context of Magdalenian period.",
+                locations: ["Western Europe", "France", "Spain"],
+                artifacts: ["Sophisticated bone tools", "Antler tools", "Cave paintings"],
+                imageFolder: "prehistoric"
+            },
+            {
+                year: "~12,700 BCE",
+                shortDesc: "Bølling-Allerød Warming",
+                title: "GLOBAL CLIMATE", 
+                description: "A relatively warm and moist interstadial period during the final stages of the Last Glacial Period.",
+                details: "Placeholder: More details about the Bølling-Allerød warming period and its effects.",
+                keyFigures: [],
+                culturalContext: "Placeholder: Impact on human populations and environments.",
+                locations: ["Global"],
+                artifacts: [],
+                imageFolder: "prehistoric"
+            },
+            {
+                year: "~10,900 BCE",
+                shortDesc: "Younger Dryas Begins",
+                title: "GLOBAL CLIMATE", 
+                description: "Rapid return to glacial conditions which temporarily reversed the gradual climatic warming after the Last Glacial Maximum.",
+                details: "Placeholder: More details about the onset of the Younger Dryas.",
+                keyFigures: [],
+                culturalContext: "Placeholder: Significant impact on ecosystems and human societies adapting to the warming trend.",
+                locations: ["Global", "Northern Hemisphere"],
+                artifacts: [],
+                imageFolder: "prehistoric"
+            },
+            {
+                year: "~10,900 BCE",
+                shortDesc: "Impact Event (Theoretical)",
+                title: "NORTH AMERICA [THEORETICAL]", 
+                description: "Hypothesized comet/asteroid impact or airburst event proposed as a trigger for the Younger Dryas cooling and associated environmental changes.",
+                details: "Placeholder: More details about the Younger Dryas impact hypothesis, evidence, and controversies.",
+                keyFigures: [],
+                culturalContext: "Placeholder: Potential catastrophic effects on North American megafauna and Paleo-Indian cultures like Clovis.",
+                locations: ["North America (epicenter debated)"],
+                artifacts: ["Nanodiamonds", "Spherules", "Platinum anomalies (debated)"],
+                imageFolder: "prehistoric"
+            },
+            {
+                year: "~10,800 BCE",
+                shortDesc: "Megafauna/Clovis Changes",
+                title: "NORTH AMERICA", 
+                description: "Major extinction event for large mammals (megafauna) and significant changes or decline in the Clovis paleo-Indian culture.",
+                details: "Placeholder: More details on the megafauna extinction and the cultural shifts observed in the archaeological record around this time.",
+                keyFigures: [],
+                culturalContext: "Placeholder: Debate on causes - climate change, human hunting (overkill hypothesis), impact event, or combination.",
+                locations: ["North America"],
+                artifacts: ["Clovis points", "Megafauna fossils"],
+                imageFolder: "prehistoric"
+            },
+            {
+                year: "~9,700 BCE",
+                shortDesc: "End of Younger Dryas",
+                title: "GLOBAL CLIMATE", 
+                description: "Abrupt end of the Younger Dryas cold period and return to warmer conditions, marking the beginning of the Holocene epoch.",
+                details: "Placeholder: More details about the rapid warming at the end of the Younger Dryas.",
+                keyFigures: [],
+                culturalContext: "Placeholder: Paved the way for the development of agriculture and settled societies in the Holocene.",
+                locations: ["Global"],
+                artifacts: [],
+                imageFolder: "prehistoric"
             }
         ]
     },
 
-    // Pre-Pottery Neolithic (9,600 - 7,000 BCE)
-    "prePotteryNeolithic": {
-        title: "Pre-Pottery Neolithic",
-        period: "9,600 - 7,000 BCE",
-        description: "The earliest phase of the Neolithic featuring agriculture and monumental structures, but before pottery production",
+    // Pre-Pottery Neolithic (9,600 - 7,000 BCE) - Renamed to Early Neolithic
+    "earlyNeolithic": { 
+        title: "Early Neolithic Revolution", 
+        period: "10,000 - 5,000 BCE", 
+        description: "Period marking the beginning of agriculture, permanent settlements, and monumental structures, leading to profound changes in human society.", 
         events: [
             {
-                year: "9500 BCE",
+                year: "9500 BCE", 
                 shortDesc: "World's oldest temple",
                 title: "Göbekli Tepe",
                 description: "Construction of massive stone pillars arranged in circles with carved animals and symbols in modern-day Turkey",
@@ -92,7 +164,7 @@ const timelineData = {
                 imageFolder: "neolithic/gobekli_tepe"
             },
             {
-                year: "9000 BCE",
+                year: "9000 BCE", 
                 shortDesc: "Agricultural beginnings",
                 title: "Fertile Crescent",
                 description: "First evidence of deliberate cultivation of wild grains like wheat and barley in the Middle East",
@@ -104,7 +176,7 @@ const timelineData = {
                 imageFolder: "neolithic"
             },
             {
-                year: "8500 BCE",
+                year: "8500 BCE", 
                 shortDesc: "Early settlement",
                 title: "Jericho",
                 description: "Development of one of the world's oldest continuously inhabited settlements with protective walls and a tower",
@@ -116,7 +188,7 @@ const timelineData = {
                 imageFolder: "neolithic"
             },
             {
-                year: "8000 BCE",
+                year: "8000 BCE", 
                 shortDesc: "Animal domestication",
                 title: "Southwest Asia",
                 description: "Evidence of early domestication of sheep, goats, and other animals for food, materials, and labor",
@@ -126,18 +198,33 @@ const timelineData = {
                 locations: ["Southwest Asia", "Zagros Mountains", "Anatolia"],
                 artifacts: ["Animal remains", "Corrals", "Bone tools"],
                 imageFolder: "neolithic"
-            }
-        ]
-    },
-
-    // Pottery Neolithic (7,000 - 5,500 BCE)
-    "potteryNeolithic": {
-        title: "Pottery Neolithic",
-        period: "7,000 - 5,500 BCE",
-        description: "The middle phase of the Neolithic featuring widespread pottery use and growing settlements",
-        events: [
+            },
             {
-                year: "7000 BCE",
+                year: "8000 BCE",
+                shortDesc: "Domestication of Cattle",
+                title: "NEAR EAST", 
+                description: "Domestication of cattle for meat, milk, and labor in the Near East region",
+                details: "By 8000 BCE, there is clear evidence of morphological changes indicating cattle domestication. These animals provided reliable sources of meat, milk, and labor.",
+                keyFigures: [],
+                culturalContext: "Animal domestication created a more secure food supply and provided new resources, fundamentally altering human relationships with the environment.",
+                locations: ["Near East", "Anatolia"],
+                artifacts: ["Animal remains", "Corrals", "Bone tools"],
+                imageFolder: "neolithic"
+            },
+            {
+                year: "8000 BCE",
+                shortDesc: "Göbekli Tepe Buried",
+                title: "ANATOLIA", 
+                description: "The monumental structures at Göbekli Tepe were deliberately and carefully buried.",
+                details: "Placeholder: Details about the intentional backfilling of Göbekli Tepe, methods, and possible reasons.",
+                keyFigures: [],
+                culturalContext: "Placeholder: The burial itself is a significant cultural act, suggesting changing beliefs or the end of a specific ritual period.",
+                locations: ["Turkey", "Anatolia", "Göbekli Tepe"],
+                artifacts: ["Backfill material", "Analysis of burial layers"],
+                imageFolder: "neolithic/gobekli_tepe"
+            },
+            {
+                year: "7000 BCE", 
                 shortDesc: "Large settlement",
                 title: "Çatalhöyük",
                 description: "Large Neolithic settlement in Anatolia with houses built adjacent to each other and entered through roofs",
@@ -149,7 +236,7 @@ const timelineData = {
                 imageFolder: "neolithic/settlements"
             },
             {
-                year: "6500 BCE",
+                year: "6500 BCE", 
                 shortDesc: "Ceramic technology",
                 title: "Pottery Innovation",
                 description: "Widespread adoption of fired pottery for storage, cooking, and artistic expression across the Near East",
@@ -161,7 +248,7 @@ const timelineData = {
                 imageFolder: "neolithic/pottery"
             },
             {
-                year: "6200 BCE",
+                year: "6200 BCE", 
                 shortDesc: "Farming spread",
                 title: "European Expansion",
                 description: "Agricultural techniques and domesticated crops spread into Europe through the Balkans and along the Mediterranean",
@@ -173,7 +260,7 @@ const timelineData = {
                 imageFolder: "neolithic"
             },
             {
-                year: "5900 BCE",
+                year: "5900 BCE", 
                 shortDesc: "Proto-cities emerge",
                 title: "Social Stratification",
                 description: "Larger settlements show evidence of specialized crafts, social hierarchies, and organized public spaces",

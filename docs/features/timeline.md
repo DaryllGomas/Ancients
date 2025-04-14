@@ -2,31 +2,26 @@
 
 ## Overview
 
-The timeline is the core feature of the project, displaying historical events chronologically from prehistoric times to the modern era. It presents both conventional historical understanding and theoretical perspectives about advanced civilizations that may have existed before recorded history.
+The timeline is the core feature of the project, displaying historical events chronologically from prehistoric times to the modern era. It presents conventional historical understanding.
 
 ## Structure
 
 The timeline is organized into major historical periods, each containing multiple events:
 
-1. **PREHISTORIC PERIOD (300,000 - 24,000 BCE)**
-2. **PRE-CATACLYSM ADVANCED CIVILIZATION (30,000 - c. 10,950 BCE)** [Theoretical]
-3. **THE GREAT CATACLYSM (c. 10,950 - 9,750 BCE)** [Theoretical]
-4. **RECOVERY & KNOWLEDGE PRESERVATION (c. 9,750 - 9,600 BCE)** [Theoretical]
-5. **PRE-POTTERY NEOLITHIC (9,600 - 7,000 BCE)**
-6. **POTTERY NEOLITHIC (7,000 - 5,500 BCE)**
-7. **CHALCOLITHIC/COPPER AGE (5,500 - 3,000 BCE)**
-8. **BRONZE AGE CIVILIZATIONS (3,000 - 1,200 BCE)**
-9. **IRON AGE & CLASSICAL PERIOD (1,200 BCE - 500 CE)**
-10. **POST-CLASSICAL PERIOD (500 - 1500 CE)**
-11. **EARLY MODERN PERIOD (1500 - 1800 CE)**
-12. **MODERN ERA (1800 - PRESENT)**
+1. **PREHISTORIC PERIOD (300,000 - 10,000 BCE)**
+2. **EARLY NEOLITHIC REVOLUTION (10,000 - 5,000 BCE)**
+3. **EARLY URBAN CIVILIZATIONS (5,000 - 3,000 BCE)**
+4. **BRONZE AGE CIVILIZATIONS (3,000 - 1,200 BCE)**
+5. **IRON AGE & CLASSICAL PERIOD (1,200 BCE - 500 CE)**
+6. **POST-CLASSICAL PERIOD (500 - 1500 CE)**
+7. **EARLY MODERN PERIOD (1500 - 1800 CE)**
+8. **MODERN ERA (1800 - PRESENT)**
 
 ## Visual Design
 
 - **Vertical Format**: Events appear along a central axis
 - **Alternating Layout**: Events alternate between left and right sides
 - **Period Headers**: Collapsible section headers for each time period
-- **Visual Distinction**: Different styling for theoretical vs. conventional content
 - **Timeline Dots**: Visual connectors showing chronological relationships
 - **Responsive Design**: Adapts to different screen sizes
 - **Animation**: Elements animate into view during scrolling
@@ -53,11 +48,6 @@ The timeline is organized into major historical periods, each containing multipl
             <h3>EVENT TITLE</h3>
             <p>Event description</p>
         </div>
-    </div>
-    
-    <!-- Theoretical Timeline Item -->
-    <div class="timeline-item theoretical">
-        <!-- Same structure as regular item but with 'theoretical' class -->
     </div>
 </div>
 ```
@@ -108,7 +98,6 @@ The timeline can be searched and filtered by:
 
 - Keywords in event content
 - Date ranges
-- Content type (theoretical vs. conventional)
 - Categories (e.g., cultural, technological)
 - Geographical regions
 
@@ -117,7 +106,6 @@ The timeline can be searched and filtered by:
 - "Did You Know?" panels with interesting facts
 - Facts specific to each time period
 - Refresh button to see different facts
-- Visual distinction between theoretical and conventional facts
 
 ## Future Enhancements
 
@@ -166,18 +154,23 @@ Planned improvements include:
 
 ### Timeline Improvements (April 13, 2025)
 
-1. **Chronological Accuracy**
-   - Fixed period overlap issues by properly aligning events to their correct time periods
-   - Moved the Clovis Culture (11,500 BCE) from Great Cataclysm to Pre-Cataclysm period
-   - Reordered events in the Great Cataclysm section to maintain strict chronology
+1. **Chronological Accuracy & Content Alignment**
+   - Aligned timeline structure and events in `index.html` and `docs/features/timeline.md` with the master conventional history in `docs/timeline.md`.
+   - Removed theoretical history sections (Pre-Cataclysm, Great Cataclysm, Recovery & Knowledge Preservation) and associated events.
+   - Updated period titles and date ranges (e.g., Prehistoric end date, consolidated Neolithic, Early Urban name/date, added ranges to later periods).
+   - Corrected placement of specific events (e.g., Sumerian city-states, Phoenician Alphabet).
+   - Re-inserted previously removed Neolithic events (Vinča, Çatalhöyük, etc.) into the correct section.
+   - Removed references to 'theoretical' content distinctions.
+   - Added key events within the Late Paleolithic / Younger Dryas timeframe (~18,000 - 9,700 BCE), including Magdalenian culture, Bølling-Allerød warming, Younger Dryas onset/end, associated ecological/cultural changes, and the Younger Dryas Impact Hypothesis (marked as theoretical).
+   - Added the intentional burial of Göbekli Tepe around 8,000 BCE.
 
-2. **Content Refinements**
-   - Removed duplicate "Beginning of Holocene" entries
-   - Added more descriptive content for agricultural innovations at 9,500 BCE
-   - Improved descriptions for Bronze Age events
+2. **Content Refinements (Previous)**
+   - Removed duplicate "Beginning of Holocene" entries.
+   - Added more descriptive content for agricultural innovations at 9,500 BCE.
+   - Improved descriptions for Bronze Age events.
 
-3. **Visual Consistency**
-   - Standardized date formatting with commas for thousands (e.g., 2,700 BCE)
-   - Added consistent prefixes for approximate dates ("c." prefix)
-   - Removed empty lines and improved section spacing
-   - Removed duplicated sections and redundant entries
+3. **Visual Consistency (Previous)**
+   - Standardized date formatting with commas for thousands (e.g., 2,700 BCE).
+   - Added consistent prefixes for approximate dates ("c." prefix).
+   - Removed empty lines and improved section spacing.
+   - Removed duplicated sections and redundant entries.

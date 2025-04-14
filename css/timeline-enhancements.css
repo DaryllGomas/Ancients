@@ -151,6 +151,34 @@
     transition: height 0.2s ease;
 }
 
+/* Styles for Younger Dryas Impact Hover Image */
+.timeline-item .content {
+    position: relative; /* Ensure parent has relative position for absolute child */
+    overflow: hidden; /* Optional: Prevents image overflow if needed */
+}
+
+.impact-hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area, might crop */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0s 0.5s, transform 0.5s ease-in-out;
+    transform: scale(0.95); /* Slightly scale down initially */
+    z-index: 5; /* Ensure it appears above the text */
+    pointer-events: none; /* Prevent image from interfering with text hover */
+}
+
+.timeline-item.theoretical:hover .impact-hover-image {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0s 0s, transform 0.5s ease-in-out;
+    transform: scale(1); /* Scale to normal size on hover */
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .search-box {

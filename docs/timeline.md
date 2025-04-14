@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides comprehensive information about the Ancient History Timeline project, which presents a chronological view of human history from prehistoric times to the present, including alternative historical theories centered around a potential advanced pre-cataclysm civilization, the Younger Dryas Impact event, and subsequent knowledge preservation.
+This document provides comprehensive information about the Ancient History Timeline project, which presents a chronological view of human history from prehistoric times to the present, based on conventional historical understanding.
 
 ## Timeline Structure
 
@@ -16,9 +16,7 @@ The timeline is built using HTML, CSS, and JavaScript with the following key com
 
 ## Timeline Periods
 
-The timeline currently displayed on the website covers the following historical periods, in chronological order:
-
-### Conventional History Sections
+The timeline currently displayed on the website covers the following historical periods and key events, in chronological order:
 
 1. **PREHISTORIC PERIOD (300,000 - 10,000 BCE)**
    - Origin of Homo sapiens (300,000 BCE) - EMERGENCE OF HUMANS
@@ -27,135 +25,90 @@ The timeline currently displayed on the website covers the following historical 
    - Early symbolic thought (45,000 BCE) - EARLY HUMAN ART
    - Cave art flourishes (40,000 BCE) - CAVE PAINTINGS
    - Ice Age peak (24,000 BCE) - LAST GLACIAL MAXIMUM
+   - Magdalenian Culture (~18,000 BCE) - EUROPE
+   - Bølling-Allerød Warming (~12,700 BCE) - GLOBAL CLIMATE
+   - Younger Dryas Begins (~10,900 BCE) - GLOBAL CLIMATE
+   - Impact Event (~10,900 BCE) - NORTH AMERICA [THEORETICAL]
+   - Megafauna/Clovis Changes (~10,800 BCE) - NORTH AMERICA
+   - End of Younger Dryas (~9,700 BCE) - GLOBAL CLIMATE
 
-### Alternative History Sections
-
-2. **PRE-CATACLYSM PERIOD (40,000 - c. 10,950 BCE)**
-   - Cave art flourishes (40,000 BCE) - CAVE PAINTINGS (Conventional)
-   - Last Glacial Maximum (24,000 BCE) - ICE AGE PEAK (Conventional)
-   - Megalithic knowledge (c. 20,000 BCE) - PRECISION STONE MASONRY (Theoretical)
-   - Astronomical observatories (c. 15,000 BCE) - STAR MAPPING SITES (Theoretical)
-   - Warming period (c. 14,700 BCE) - BØLLING-ALLERØD INTERSTADIAL (Conventional)
-   - Early sedentary culture (c. 14,500 BCE) - NATUFIAN CULTURE (Conventional)
-   - End of Pre-Cataclysm Advanced Civilization (c. 10,950 BCE) - CIVILIZATION COLLAPSE (Theoretical)
-
-3. **THE GREAT CATACLYSM (c. 10,950 - 9,750 BCE)**
-   - North American hunters (c. 11,500 BCE) - CLOVIS CULTURE (Conventional)
-   - Cosmic impact event (c. 10,950 BCE) - YOUNGER DRYAS IMPACT (Theoretical)
-   - Global flooding (c. 10,900 BCE) - RISING SEA LEVELS (Theoretical)
-   - Mass extinction (c. 10,900 BCE) - MEGAFAUNA EXTINCTION (Conventional)
-   - Return to cold (c. 10,950-9,750 BCE) - YOUNGER DRYAS PERIOD (Conventional)
-   - Nuclear winter (c. 10,800 BCE) - GLOBAL COOLING (Theoretical)
-
-4. **RECOVERY & KNOWLEDGE PRESERVATION (c. 9,750 - 9,600 BCE)**
-   - Climate stabilization (c. 9,750 BCE) - BEGINNING OF HOLOCENE (Conventional)
-     *Well-established by paleoclimate data, including ice core records showing a rapid climate shift*
-   - Survivor communities (c. 9,550 BCE) - KNOWLEDGE KEEPERS (Theoretical)
-     *Theoretical: Aligns with widespread flood myths and cultural continuity in later periods*
-   - Toolmaking innovations (c. 9,500 BCE) - MICROLITH TECHNOLOGY (Conventional)
-     *Archaeological evidence shows advancement in small, refined stone tools after the Younger Dryas*
-   - Symbolic expression (c. 9,400 BCE) - EARLY RITUAL PRACTICES (Conventional)
-     *Precursors to later geometric patterns found at megalithic sites*
-   - Knowledge transmission (c. 9,300 BCE) - ORAL TRADITIONS (Theoretical)
-     *Theoretical: Possible preservation of astronomical and architectural knowledge that influenced later structures*
-   - Early communal sites (c. 9,200 BCE) - PRE-MEGALITHIC GATHERINGS (Theoretical)
-     *Theoretical: Precursors to later sites like Göbekli Tepe*
-
-### Conventional History Sections (Continued)
-
-5. **EARLY NEOLITHIC REVOLUTION (10,000 - 5,000 BCE)**
-   - End of Younger Dryas (9,750 BCE) - BEGINNING OF HOLOCENE
-   - World's oldest temple (9,600 BCE) - GÖBEKLI TEPE
-   - Agricultural beginnings (9,000 BCE) - FERTILE CRESCENT
-   - Mehrgarh Settlement (9,000 BCE) - SOUTH ASIA
-   - Early settlement (8,500 BCE) - JERICHO
-   - Domestication of Cattle (8,000 BCE) - NEAR EAST
-   - Animal domestication (8,000 BCE) - SOUTHWEST ASIA
+2. **EARLY NEOLITHIC REVOLUTION (10,000 - 5,000 BCE)**
+   - First permanent settlements (10,000 BCE) - JERICHO
+   - Beginning of agriculture (9,500 BCE) - FERTILE CRESCENT
+   - Domestication of goats/sheep (9,000 BCE) - ANIMAL HUSBANDRY
+   - Domestication of cattle (8,000 BCE) - NEAR EAST
+   - Göbekli Tepe Buried (8,000 BCE) - ANATOLIA
+   - Animal domestication (8,000 BCE) - PIGS
    - Vinča Culture (7,000 BCE) - EUROPE
    - Large settlement (7,000 BCE) - ÇATALHÖYÜK
    - Jiahu Symbols (6,600 BCE) - CHINA
    - Ceramic technology (6,500 BCE) - POTTERY INNOVATION
    - Farming spread (6,200 BCE) - EUROPEAN EXPANSION
-   - Proto-cities (5,900 BCE) - SOCIAL STRATIFICATION
-   - Early metallurgy (5,500 BCE) - COPPER WORKING
-   - Irrigation agriculture (5,000 BCE) - MESOPOTAMIA
+   - Proto-cities emerge (5,900 BCE) - SOCIAL STRATIFICATION
 
-6. **EARLY URBAN CIVILIZATIONS (5,000 - 3,000 BCE)**
-   - Long-distance trade (4,500 BCE) - TRADE NETWORKS
-   - Uruk Period begins (4,000 BCE) - FIRST SUMERIAN CITIES
-   - Proto-writing (4,000 BCE) - ADMINISTRATIVE TOKENS
-   - Wheel invention (3,500 BCE) - MESOPOTAMIAN INNOVATION
-   - Early Dynastic Egypt (3,500 BCE) - PREDYNASTIC DEVELOPMENTS
-   - First writing system (3,300 BCE) - SUMERIAN CUNEIFORM
-   - Egyptian unification (3,100 BCE) - NARMER'S CONQUEST
+3. **EARLY URBAN CIVILIZATIONS (5,000 - 3,000 BCE)**
+   - First cities emerge (5,000 BCE) - MESOPOTAMIA
+   - Irrigation systems (4,500 BCE) - AGRICULTURAL ADVANCES
+   - Uruk period begins (4,000 BCE) - SUMERIAN CIVILIZATION
+   - Invention of the wheel (3,500 BCE) - TRANSPORTATION
+   - Development of writing (3,200 BCE) - CUNEIFORM SCRIPT
+   - Egyptian unification (3,100 BCE) - EARLY DYNASTIC PERIOD
    - Sumerian city-states (2,900 BCE) - URBAN CENTERS
 
-7. **BRONZE AGE CIVILIZATIONS (3,000 - 1,200 BCE)**
-   - Egyptian Old Kingdom (2,700 BCE) - PYRAMID AGE
-   - Great Pyramid of Giza (2,600 BCE) - KHUFU'S MONUMENT
-   - Indus Valley Civilization (2,500 BCE) - HARAPPAN CULTURE
-   - Epic of Gilgamesh (2,100 BCE) - SUMERIAN LITERATURE
-   - Akkadian Empire (2,334 BCE) - SARGON'S CONQUEST
-   - Old Kingdom Collapse (2,200 BCE) - FIRST INTERMEDIATE PERIOD
-   - Third Dynasty of Ur (2,112 BCE) - SUMERIAN RENAISSANCE
-   - Mycenaean Civilization (2,000 BCE) - GREECE
-   - Minoan Civilization (2,000 BCE) - CRETE
-   - Old Babylonian Period (1,894 BCE) - BABYLON'S RISE
-   - Hammurabi's Code (1,792 BCE) - LEGAL FOUNDATION
-   - Shang Dynasty (1,600 BCE) - CHINA
+4. **BRONZE AGE CIVILIZATIONS (3,000 - 1,200 BCE)**
+   - Bronze metallurgy (3,000 BCE) - TECHNOLOGICAL SHIFT
+   - Minoan civilization (2,700 BCE) - CRETE
+   - Indus Valley Civilization (2,600 BCE) - HARAPPAN CITIES
+   - Egyptian Old Kingdom (2,686 BCE) - AGE OF PYRAMIDS
+   - Akkadian Empire (2,334 BCE) - FIRST EMPIRE
+   - Babylonian Empire (1,792 BCE) - HAMMURABI'S CODE
+   - Mycenaean Greece (1,600 BCE) - MAINLAND GREECE
+   - Hittite Empire (1,600 BCE) - ANATOLIA
+   - Bronze Age Collapse (1,200 BCE) - SOCIETAL DISRUPTION
+
+5. **IRON AGE & CLASSICAL PERIOD (1,200 BCE - 500 CE)**
    - Phoenician Alphabet (1,050 BCE) - WRITING INNOVATION
-   - Vedic Period (1,500 BCE) - INDIA
-   - Bronze Age Collapse (1,200 BCE) - EASTERN MEDITERRANEAN
-
-8. **IRON AGE & CLASSICAL PERIOD (1,200 BCE - 500 CE)**
-   - Iron Age Begins (1,000 BCE) - NEAR EAST
    - Phoenician city-states (1,000 BCE) - MARITIME TRADE
-   - Kingdom of Kush (1,000 BCE) - NUBIA
-   - Olmec Civilization (1,400 BCE) - MESOAMERICA
-   - Zhou Dynasty (1,046 BCE) - CHINA
-   - Founding of Rome (753 BCE) - ROMAN BEGINNINGS (Traditional)
-   - First Olympic Games (776 BCE) - GREECE
-   - Assyrian Empire Peak (700 BCE) - MESOPOTAMIA
-   - Lydian Coinage (600 BCE) - MONETARY SYSTEMS
-   - Roman Republic (509 BCE) - POLITICAL REFORM
-   - Birth of Buddha (563 BCE) - RELIGIOUS FOUNDER (Traditional)
-   - Birth of Confucius (551 BCE) - CHINESE PHILOSOPHY (Traditional)
-   - Persian Wars (490-479 BCE) - GREECE VS PERSIA
-   - Classical Age (500 BCE) - GOLDEN AGE OF GREECE
-   - Peloponnesian War (431-404 BCE) - GREEK CONFLICT
-   - Death of Socrates (399 BCE) - WESTERN PHILOSOPHY
-   - Birth of Aristotle (384 BCE) - GREEK PHILOSOPHY
-   - Alexander's Conquests (336-323 BCE) - HELLENISTIC WORLD
-   - Maurya Empire (321 BCE) - INDIA
-   - Euclid's Elements (300 BCE) - MATHEMATICS
-   - Unification of China (221 BCE) - QIN DYNASTY
-   - Battle of Zama (202 BCE) - ROME VS CARTHAGE
-   - Chavín Culture (900 BCE) - ANDEAN CIVILIZATION
-   - Rome Conquers Greece (146 BCE) - MEDITERRANEAN DOMINANCE
-   - Assassination of Julius Caesar (44 BCE) - ROMAN POLITICS
-   - Roman Empire (27 BCE) - AUGUSTUS
-   - Birth of Jesus (c. 0 CE) - RELIGIOUS FOUNDER (Traditional, likely 6-4 BCE)
-   - Fall of Rome (476 CE) - END OF WESTERN ROMAN EMPIRE
+   - Kingdom of Israel (1,000 BCE) - MONARCHY ESTABLISHED
+   - Greek city-states (800 BCE) - RISE OF THE POLIS
+   - Founding of Rome (753 BCE) - ITALIAN PENINSULA
+   - Persian Empire (550 BCE) - ACHAEMENID DYNASTY
+   - Classical Greece (500 BCE) - GOLDEN AGE OF ATHENS
+   - Roman Republic (509 BCE) - OVERTHROW OF MONARCHY
+   - Roman Empire (27 BCE) - AUGUSTUS CAESAR
+   - Spread of Christianity (1st Century CE) - RELIGIOUS MOVEMENT
+   - Fall of Western Roman Empire (476 CE) - TRANSITION PERIOD
 
-9. **POST-CLASSICAL PERIOD (500 - 1500 CE)**
-   - Islamic Expansion (632 CE) - RISE OF ISLAM
+6. **POST-CLASSICAL PERIOD (500 - 1500 CE)**
+   - Byzantine Empire (330 CE) - EASTERN ROMAN EMPIRE
+   - Islamic Caliphates (632 CE) - RISE OF ISLAM
+   - Viking Age (793 CE) - SCANDINAVIAN EXPANSION
+   - Tang Dynasty (618 CE) - GOLDEN AGE OF CHINA
    - Holy Roman Empire (800 CE) - CHARLEMAGNE
-   - Angkor Empire (1,200 CE) - SOUTHEAST ASIAN POWER
+   - Norman Conquest (1066 CE) - ENGLAND
+   - The Crusades (1095 CE) - RELIGIOUS WARS
+   - Mongol Empire (1206 CE) - GENGHIS KHAN
+   - Black Death (1347 CE) - PANDEMIC
+   - Renaissance begins (14th Century CE) - CULTURAL REBIRTH
 
-10. **EARLY MODERN PERIOD (1500 - 1800 CE)**
-    - Age of Exploration (1492 CE) - COLUMBUS
-    - Scientific Revolution (1600 CE) - MODERN SCIENCE
+7. **EARLY MODERN PERIOD (1500 - 1800 CE)**
+   - Age of Exploration (15th Century CE) - GLOBAL VOYAGES
+   - Protestant Reformation (1517 CE) - RELIGIOUS SPLIT
+   - Scientific Revolution (16th Century CE) - NEW UNDERSTANDING
+   - Age of Enlightenment (17th Century CE) - REASON AND INDIVIDUALISM
+   - American Revolution (1775 CE) - INDEPENDENCE DECLARED
+   - French Revolution (1789 CE) - SOCIAL UPHEAVAL
 
-11. **MODERN ERA (1800 - PRESENT)**
-    - Napoleonic Era (1804 CE) - NAPOLEON
-    - World War I (1914 CE) - GLOBAL CONFLICT
-    - End of Cold War (1991 CE) - FALL OF THE SOVIET UNION
-    - September 11 Attacks (2001 CE) - WAR ON TERROR
-    - Global Financial Crisis (2008 CE) - ECONOMIC RECESSION
-    - Arab Spring (2011 CE) - MIDDLE EAST REVOLUTIONS
-    - Global Pandemic (2019 CE) - COVID-19
-    - European Conflict (2022 CE) - RUSSIA-UKRAINE WAR
-    - AI Revolution (2023 CE) - ARTIFICIAL INTELLIGENCE
+8. **MODERN ERA (1800 - PRESENT)**
+   - Industrial Revolution (18th Century CE) - TECHNOLOGICAL CHANGE
+   - Napoleonic Wars (1803 CE) - EUROPEAN CONFLICT
+   - World War I (1914 CE) - GLOBAL CONFLICT
+   - Russian Revolution (1917 CE) - COMMUNISM RISES
+   - World War II (1939 CE) - GLOBAL CONFLICT
+   - Cold War (1947 CE) - EAST VS WEST
+   - Space Age (1957 CE) - EXPLORATION BEGINS
+   - Digital Revolution (20th Century CE) - INFORMATION AGE
+   - Globalization (21st Century CE) - INTERCONNECTED WORLD
 
 ## Styling and Design
 
@@ -175,17 +128,6 @@ Styling features include:
 - Responsive design adapts to different screen sizes
 - Hover effects add subtle scaling and shadows to timeline items
 - Smooth animations reveal timeline items as users scroll
-- Theoretical content is visually distinguished with special styling
-
-## Alternative History Theory
-
-The timeline incorporates the theory that an advanced human civilization existed from approximately 30,000 BCE to 10,950 BCE and was devastated by a cosmic impact (the Younger Dryas Impact Event). Key points of this theory include:
-
-1. **Pre-Cataclysm Advanced Civilization**: A technologically advanced civilization that emerged around 30,000 BCE and developed sophisticated knowledge of astronomy and architecture
-2. **The Great Cataclysm**: A comet/asteroid impact around 10,950 BCE that triggered catastrophic climate change (the Younger Dryas cold period), flooding, and a "nuclear winter" effect lasting until approximately 9,750 BCE
-3. **Knowledge Preservation**: Survivors maintained and transmitted key technological and astronomical knowledge through oral traditions and symbolic structures during the recovery period (9,750-9,600 BCE)
-
-The website clearly distinguishes between conventional historical understanding and this alternative theory by using specific styling for theoretical timeline sections and items. This visual distinction helps users identify which content is based on mainstream archaeology versus speculative theory.
 
 ## User Interface Features
 
@@ -199,7 +141,7 @@ The timeline includes several interactive features to enhance the user experienc
 ### 2. Search & Filtering
 - **Floating Search Icon**: Expandable search interface accessible from a subtle icon in the top-right corner
 - **Keyword Search**: Full-text search across all timeline content
-- **Advanced Filtering**: Filter by date range, content type (theoretical/conventional), category, and region
+- **Advanced Filtering**: Filter by date range, content type, category, and region
 - **Result Highlighting**: Visual highlighting of search terms in results
 
 ### 3. Detailed Event Views
@@ -210,7 +152,7 @@ The timeline includes several interactive features to enhance the user experienc
 ### 4. Educational Features
 - **"Did You Know?" Facts**: Interesting historical facts for each time period
 - **Refresh Option**: View different facts with a refresh button
-- **Visual Distinction**: Clear visual differentiation between theoretical and conventional content
+- **Visual Distinction**: Clear visual differentiation between conventional and theoretical content
 
 ## Technical Implementation
 
@@ -270,13 +212,7 @@ To modify styling:
 
 ## References and Sources
 
-The alternative history theory incorporated in this timeline draws from research into:
-
-- The Younger Dryas Impact Hypothesis, which suggests a cosmic impact triggered abrupt climate change around 10,950 BCE
-- Geological evidence of rapid climate change at the onset of the Younger Dryas period
-- Mass extinction of North American megafauna coinciding with this period
-- Ancient flood myths from various cultures worldwide that may preserve memories of post-glacial sea level rise
-- The advanced architectural and astronomical knowledge evident at sites like Göbekli Tepe that appear to emerge suddenly in the archaeological record
+The timeline draws from research into conventional historical understanding and archaeological evidence.
 
 ## Future Enhancements
 
@@ -286,9 +222,9 @@ Planned enhancements for the timeline include:
 2. Interactive maps showing the geographical spread of civilizations
 3. Additional multimedia content including reconstructions of ancient sites
 4. Expansion of the Early Neolithic and Early Urban Civilizations sections
-5. Citation system linking timeline entries to academic and alternative research sources
+5. Citation system linking timeline entries to academic sources
 6. Clearer distinction between evidence-based and theoretical content
 
 ## Conclusion
 
-This timeline provides a comprehensive view of human history that combines conventional archaeological understanding with alternative theories about a potential lost advanced civilization. The visual presentation makes complex historical information accessible while maintaining scholarly integrity by clearly distinguishing between established history and theoretical perspectives through visual styling differences. The interactive features allow users to explore history at their own pace and focus on specific periods or events of interest.
+This timeline provides a comprehensive view of human history based on conventional historical understanding. The visual presentation makes complex historical information accessible while maintaining scholarly integrity. The interactive features allow users to explore history at their own pace and focus on specific periods or events of interest.

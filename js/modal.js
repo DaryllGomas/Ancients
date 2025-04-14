@@ -251,18 +251,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // Helper function to get period ID from title text
     function getPeriodIdFromTitle(title) {
         const periodMap = {
+            // Map full titles (without dates) to the keys used in timeline-data.js
             'PREHISTORIC PERIOD': 'prehistoric',
-            'PRE-CATACLYSM ADVANCED CIVILIZATION': 'preCataclysm',
-            'THE GREAT CATACLYSM': 'cataclysm',
-            'RECOVERY & KNOWLEDGE PRESERVATION': 'recovery',
-            'PRE-POTTERY NEOLITHIC': 'prePotteryNeolithic',
-            'POTTERY NEOLITHIC': 'potteryNeolithic',
-            'CHALCOLITHIC/COPPER AGE': 'chalcolithic',
+            'EARLY NEOLITHIC REVOLUTION': 'earlyNeolithic', // Consolidated Neolithic
+            'EARLY URBAN CIVILIZATIONS': 'earlyUrban', // Updated key potentially
             'BRONZE AGE CIVILIZATIONS': 'bronzeAge',
             'IRON AGE & CLASSICAL PERIOD': 'classical',
             'POST-CLASSICAL PERIOD': 'postClassical',
             'EARLY MODERN PERIOD': 'earlyModern',
             'MODERN ERA': 'modern'
+            // Note: Ensure these keys ('prehistoric', 'earlyNeolithic', etc.) exactly match 
+            // the top-level keys in your timeline-data.js file.
         };
         
         // Extract the period name from the full title (remove dates)

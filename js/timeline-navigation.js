@@ -73,25 +73,22 @@ function createEraJumps() {
     const jumpContainer = document.createElement('div');
     jumpContainer.className = 'era-jump-container';
     
-    // Define era jumps
+    // Define era jumps - UPDATED to match current index.html
     const eras = [
-        { name: 'PREHISTORIC', target: 'PREHISTORIC PERIOD', theoretical: false },
-        { name: 'PRE-CATACLYSM', target: 'PRE-CATACLYSM ADVANCED CIVILIZATION', theoretical: true },
-        { name: 'CATACLYSM', target: 'THE GREAT CATACLYSM', theoretical: true },
-        { name: 'RECOVERY', target: 'RECOVERY & KNOWLEDGE PRESERVATION', theoretical: true },
-        { name: 'NEOLITHIC', target: 'PRE-POTTERY NEOLITHIC', theoretical: false },
-        { name: 'CHALCOLITHIC', target: 'CHALCOLITHIC/COPPER AGE', theoretical: false },
-        { name: 'BRONZE AGE', target: 'BRONZE AGE CIVILIZATIONS', theoretical: false },
-        { name: 'CLASSICAL', target: 'IRON AGE & CLASSICAL PERIOD', theoretical: false },
-        { name: 'POST-CLASSICAL', target: 'POST-CLASSICAL PERIOD', theoretical: false },
-        { name: 'MODERN', target: 'MODERN ERA', theoretical: false }
+        { name: 'PREHISTORIC', target: 'PREHISTORIC PERIOD (300,000 - 10,000 BCE)' },
+        { name: 'NEOLITHIC', target: 'EARLY NEOLITHIC REVOLUTION (10,000 - 5,000 BCE)' },
+        { name: 'EARLY URBAN', target: 'EARLY URBAN CIVILIZATIONS (5,000 - 3,000 BCE)' },
+        { name: 'BRONZE AGE', target: 'BRONZE AGE CIVILIZATIONS (3,000 - 1,200 BCE)' },
+        { name: 'IRON/CLASSICAL', target: 'IRON AGE & CLASSICAL PERIOD (1,200 BCE - 500 CE)' },
+        { name: 'POST-CLASSICAL', target: 'POST-CLASSICAL PERIOD (500 - 1500 CE)' },
+        { name: 'EARLY MODERN', target: 'EARLY MODERN PERIOD (1500 - 1800 CE)' },
+        { name: 'MODERN', target: 'MODERN ERA (1800 - PRESENT)' }
     ];
     
     // Create a button for each era
     eras.forEach(era => {
         const button = document.createElement('button');
         button.className = 'era-jump-button';
-        if (era.theoretical) button.classList.add('theoretical');
         button.textContent = era.name;
         
         // Add click event
@@ -102,7 +99,7 @@ function createEraJumps() {
             
             for (let section of sections) {
                 const title = section.querySelector('.period-title').textContent;
-                if (title.includes(era.target)) {
+                if (title.includes(era.target)) { // Match against the full title including dates
                     targetSection = section;
                     break;
                 }
