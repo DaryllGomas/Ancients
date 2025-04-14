@@ -3,9 +3,10 @@
  * Handles loading of Three.js dependencies and initialization of the WebGL Zen Space
  */
 
-// Initialize on document load
+// Initialize with background effects only
 document.addEventListener('DOMContentLoaded', function() {
-    // Create container for WebGL content if it doesn't exist
+    // Don't initialize WebGL content - using CSS background instead
+    /*
     let container = document.getElementById('zen-space-container');
     if (!container) {
         container = document.createElement('div');
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         container.className = 'zen-space-container';
         document.body.insertBefore(container, document.body.firstChild);
     }
+    */
     
     // Add loading indicator
     const loader = document.createElement('div');

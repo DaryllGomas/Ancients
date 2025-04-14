@@ -6,10 +6,14 @@ All notable changes to the Ancient History Timeline project will be documented i
 
 ### Added
 - WebGL portal effect documentation
+- Traditional papyrus background for enhanced visual theme
 
 ### Changed
 - Updated project progress tracker to reflect portal implementation
 - Reorganized documentation structure
+- Fixed timeline chronology and content issues
+- Standardized date formatting throughout timeline
+- Improved timeline section organization
 
 ## [1.1.0] - 2025-04-13
 

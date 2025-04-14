@@ -161,3 +161,23 @@ Planned improvements include:
 - Tap section headers to collapse/expand
 - Tap events to open detailed view
 - Use the floating navigation for quick jumps
+
+## Recent Updates
+
+### Timeline Improvements (April 13, 2025)
+
+1. **Chronological Accuracy**
+   - Fixed period overlap issues by properly aligning events to their correct time periods
+   - Moved the Clovis Culture (11,500 BCE) from Great Cataclysm to Pre-Cataclysm period
+   - Reordered events in the Great Cataclysm section to maintain strict chronology
+
+2. **Content Refinements**
+   - Removed duplicate "Beginning of Holocene" entries
+   - Added more descriptive content for agricultural innovations at 9,500 BCE
+   - Improved descriptions for Bronze Age events
+
+3. **Visual Consistency**
+   - Standardized date formatting with commas for thousands (e.g., 2,700 BCE)
+   - Added consistent prefixes for approximate dates ("c." prefix)
+   - Removed empty lines and improved section spacing
+   - Removed duplicated sections and redundant entries
