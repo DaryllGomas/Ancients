@@ -7,6 +7,14 @@ All notable changes to the Ancient History Timeline project will be documented i
 ### Added
 - WebGL portal effect documentation
 - Traditional papyrus background for enhanced visual theme
+- Artifacts section with dedicated page (artifacts.html)
+- Interactive artifact gallery with filtering system
+- Detailed artifact modal views with historical information
+- Egyptian Royal Cartouches artifact
+- Paleolithic Hand Axe artifact
+- Venus Figurines artifact
+- Multiple Handbag Depictions artifact (compilation image)
+- Organized artifacts into category folders (Art_Symbols, Mysterious, Tools_Weapons)
 
 ### Changed
 - Updated project progress tracker to reflect portal implementation
@@ -14,6 +22,16 @@ All notable changes to the Ancient History Timeline project will be documented i
 - Fixed timeline chronology and content issues
 - Standardized date formatting throughout timeline
 - Improved timeline section organization
+- Updated navigation links to support multi-page structure
+- Removed theoretical category from artifacts in favor of mysteries section
+- Updated artifact image paths to use new folder structure
+- Enhanced artifact categorization with specific tags for each type
+
+### Fixed
+- Artifact categorization issues:
+  - Egyptian Cartouches now properly categorized as Art & Symbols only
+  - Multiple Handbag Depictions now properly categorized as Mysterious only
+  - Mysterious Handbag Symbols now properly categorized as Mysterious only
 
 ## [1.1.0] - 2025-04-13
 

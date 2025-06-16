@@ -5,16 +5,23 @@ document.addEventListener('DOMContentLoaded', function() {
     
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            // Prevent default anchor behavior
-            e.preventDefault();
+            const href = this.getAttribute('href');
             
-            // Get the section id from the href attribute
-            const targetId = this.getAttribute('href');
-            
-            // Scroll to the section
-            document.querySelector(targetId).scrollIntoView({
-                behavior: 'smooth'
-            });
+            // Only handle smooth scrolling for anchor links (starting with #)
+            if (href.startsWith('#')) {
+                // Prevent default anchor behavior
+                e.preventDefault();
+                
+                // Check if the target section exists
+                const targetSection = document.querySelector(href);
+                if (targetSection) {
+                    // Scroll to the section
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+            // For external links (like artifacts.html), let the browser handle navigation normally
         });
     });
 

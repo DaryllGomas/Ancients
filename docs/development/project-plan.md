@@ -32,7 +32,7 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
    - Multiple facts with refresh functionality
    - Visual distinction between theoretical and conventional facts
 
-### Phase 2: Visual & Design Improvements 🔄 IN PROGRESS (25%)
+### Phase 2: Visual & Design Improvements 🔄 IN PROGRESS (35%)
 
 1. **WebGL Portal Effect** ✅
    - Immersive cosmic portal/depth effect using Three.js and WebGL
@@ -42,25 +42,32 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
    - Performance optimizations and device-specific fallbacks
    - Responsive design and mobile compatibility
 
-2. **Interactive Map Integration** 🔄
+2. **Artifacts Section** ✅
+   - Dedicated artifacts page with interactive gallery
+   - Filtering system by artifact categories (mysterious, tools, art, theoretical)
+   - Detailed modal views with comprehensive historical information
+   - Support for both conventional and theoretical artifact interpretations
+   - Responsive grid layout with smooth animations
+
+3. **Interactive Map Integration** 🔄
    - Geographic map showing event locations
    - Civilization boundaries that change over time
    - Toggle between timeline and map views
    - Animated migration patterns for key population movements
 
-3. **Visual Enhancements** 🔄
+4. **Visual Enhancements** 🔄
    - Custom iconography for different event types
    - Subtle background textures/patterns for different eras
    - Improved visual transitions between sections
    - Custom illustrations for key events
 
-4. **Layout Optimization** 🔄
+5. **Layout Optimization** 🔄
    - Refined responsive design for all screen sizes
    - Optional horizontal timeline view
    - Improved spacing and typography for readability
    - Compact view option for dense timeline sections
 
-5. **Theme Options** 🔄
+6. **Theme Options** 🔄
    - Dark/light mode toggle
    - Optional high-contrast mode for accessibility
    - Print-friendly styling
@@ -96,7 +103,7 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
 ## Current Status
 
 - **Phase 1:** 100% Complete ✅
-- **Phase 2:** 25% Complete 🔄
+- **Phase 2:** 35% Complete 🔄
 - **Phase 3:** Not Started 🔄
 
 ## Implementation Timeline
@@ -104,6 +111,7 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
 ### Completed
 - Phase 1 Core Features (April 12, 2025)
 - WebGL Portal Effect (April 13, 2025)
+- Artifacts Section (June 15, 2025)
 
 ### Current Sprint (April 14-28, 2025)
 1. Integrate WebGL portal effect with timeline navigation
