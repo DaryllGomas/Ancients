@@ -27,12 +27,17 @@ All notable changes to the Ancient History Timeline project will be documented i
 - Updated artifact image paths to use new folder structure
 - Enhanced artifact categorization with specific tags for each type
 - Removed non-functional civilizations navigation link from both index.html and artifacts.html
+- Added papyrus texture background to artifacts page matching index.html design
 
 ### Fixed
 - Artifact categorization issues:
   - Egyptian Cartouches now properly categorized as Art & Symbols only
   - Multiple Handbag Depictions now properly categorized as Mysterious only
   - Mysterious Handbag Symbols now properly categorized as Mysterious only
+- Improved text readability on artifacts page:
+  - Changed subtitle text from grey to gold (#d4af37) with text shadow
+  - Updated artifact era text to darker gold (#b8941f)
+  - Enhanced all grey text elements for better contrast against papyrus background
 
 ## [1.1.0] - 2025-04-13
 

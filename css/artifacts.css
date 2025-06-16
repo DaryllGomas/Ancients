@@ -20,8 +20,9 @@
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.3em;
-    color: #888;
+    color: #d4af37;
     margin-bottom: 2em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 /* Filter Controls */
@@ -165,14 +166,14 @@
 
 .artifact-era {
     font-family: 'Cormorant Garamond', serif;
-    color: #888;
+    color: #b8941f;
     font-size: 0.9em;
     margin-bottom: 1em;
 }
 
 .artifact-description {
     font-family: 'Cormorant Garamond', serif;
-    color: #ccc;
+    color: #e5d4a1;
     line-height: 1.6;
     margin-bottom: 1em;
 }
@@ -223,7 +224,7 @@
 
 .artifact-modal .modal-header p {
     font-family: 'Cormorant Garamond', serif;
-    color: #888;
+    color: #b8941f;
 }
 
 .artifact-modal .modal-body {
@@ -263,7 +264,7 @@
 
 .detail-section p {
     font-family: 'Cormorant Garamond', serif;
-    color: #ccc;
+    color: #e5d4a1;
     line-height: 1.8;
 }
 
@@ -277,7 +278,7 @@ footer {
 }
 
 footer p {
-    color: #888;
+    color: #b8941f;
     font-family: 'Cormorant Garamond', serif;
 }
 
