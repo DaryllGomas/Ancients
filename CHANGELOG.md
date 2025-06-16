@@ -26,6 +26,7 @@ All notable changes to the Ancient History Timeline project will be documented i
 - Removed theoretical category from artifacts in favor of mysteries section
 - Updated artifact image paths to use new folder structure
 - Enhanced artifact categorization with specific tags for each type
+- Removed non-functional civilizations navigation link from both index.html and artifacts.html
 
 ### Fixed
 - Artifact categorization issues:

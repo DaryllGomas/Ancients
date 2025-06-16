@@ -113,13 +113,14 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
 - WebGL Portal Effect (April 13, 2025)
 - Artifacts Section (June 15, 2025)
 
-### Current Sprint (April 14-28, 2025)
+### Current Sprint (June 16-30, 2025)
 1. Integrate WebGL portal effect with timeline navigation
 2. Begin interactive map implementation
 3. Create custom iconography for event types
 4. Enhance responsive design for mobile
+5. Plan civilizations section (removed from navigation until implemented)
 
-### Next Sprint (April 29-May 12, 2025)
+### Next Sprint (July 1-15, 2025)
 1. Complete interactive map implementation
 2. Implement theme options
 3. Create era-specific visual enhancements
