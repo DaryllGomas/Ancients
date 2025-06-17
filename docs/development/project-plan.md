@@ -111,7 +111,7 @@ The "Ancients" project is an interactive web-based timeline showcasing human his
 ### Completed
 - Phase 1 Core Features (April 12, 2025)
 - WebGL Portal Effect (April 13, 2025)
-- Artifacts Section (June 15, 2025)
+- Artifacts Section with Image Gallery (June 16, 2025)
 
 ### Current Sprint (June 16-30, 2025)
 1. Integrate WebGL portal effect with timeline navigation

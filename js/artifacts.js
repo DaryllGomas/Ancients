@@ -1,4 +1,7 @@
 // Artifacts page functionality
+let currentImageIndex = 0;
+let currentImages = [];
+
 document.addEventListener('DOMContentLoaded', function() {
     // Get DOM elements
     const filterButtons = document.querySelectorAll('.filter-btn');
@@ -50,8 +53,45 @@ document.addEventListener('DOMContentLoaded', function() {
         // Populate modal content
         document.getElementById('artifactTitle').textContent = artifact.title;
         document.getElementById('artifactEra').textContent = artifact.era;
-        document.getElementById('artifactModalImage').src = artifact.image;
-        document.getElementById('artifactModalImage').alt = artifact.title;
+        
+        // Handle multiple images or single image
+        const modalImage = document.getElementById('artifactModalImage');
+        const galleryNav = document.getElementById('galleryNav');
+        const galleryDots = document.getElementById('galleryDots');
+        
+        // Reset gallery
+        currentImageIndex = 0;
+        currentImages = [];
+        galleryDots.innerHTML = '';
+        
+        if (artifact.images && artifact.images.length > 0) {
+            // Multiple images - set up gallery
+            currentImages = artifact.images;
+            modalImage.src = artifact.images[0];
+            modalImage.alt = artifact.title;
+            modalImage.style.opacity = '1';
+            
+            if (artifact.images.length > 1) {
+                galleryNav.style.display = 'flex';
+                
+                // Create dots
+                artifact.images.forEach((img, index) => {
+                    const dot = document.createElement('span');
+                    dot.className = 'gallery-dot' + (index === 0 ? ' active' : '');
+                    dot.onclick = () => showImage(index);
+                    galleryDots.appendChild(dot);
+                });
+            } else {
+                galleryNav.style.display = 'none';
+            }
+        } else if (artifact.image) {
+            // Single image
+            modalImage.src = artifact.image;
+            modalImage.alt = artifact.title;
+            modalImage.style.opacity = '1';
+            galleryNav.style.display = 'none';
+        }
+        
         document.getElementById('artifactOverview').textContent = artifact.overview;
         document.getElementById('artifactContext').textContent = artifact.context;
         document.getElementById('artifactSignificance').textContent = artifact.significance;
@@ -92,11 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let artifactKey = '';
             
             if (title.includes('Handbag')) {
-                if (title.includes('Multiple')) {
-                    artifactKey = 'multiple-handbag-depictions';
-                } else {
-                    artifactKey = 'mysterious-handbags';
-                }
+                artifactKey = 'mysterious-handbags';
             } else if (title.includes('Cartouche')) {
                 artifactKey = 'egyptian-cartouches';
             } else if (title.includes('Bronze Age Swords')) {
@@ -124,8 +160,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Keyboard navigation
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && modal.style.display === 'block') {
-            closeModal();
+        if (modal.style.display === 'block') {
+            if (e.key === 'Escape') {
+                closeModal();
+            } else if (e.key === 'ArrowLeft' && currentImages.length > 1) {
+                changeImage(-1);
+            } else if (e.key === 'ArrowRight' && currentImages.length > 1) {
+                changeImage(1);
+            }
         }
     });
     
@@ -205,6 +247,46 @@ function addArtifact(artifactData) {
         openArtifactModal(artifactData.key);
     });
 }
+
+// Gallery navigation functions
+function showImage(index) {
+    if (currentImages.length === 0) return;
+    
+    currentImageIndex = index;
+    const modalImage = document.getElementById('artifactModalImage');
+    
+    // Fade out, change source, fade in
+    modalImage.style.opacity = '0';
+    setTimeout(() => {
+        modalImage.src = currentImages[index];
+        modalImage.style.opacity = '1';
+    }, 150);
+    
+    // Update dots
+    const dots = document.querySelectorAll('.gallery-dot');
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+    });
+}
+
+function changeImage(direction) {
+    if (currentImages.length === 0) return;
+    
+    currentImageIndex += direction;
+    
+    // Wrap around
+    if (currentImageIndex < 0) {
+        currentImageIndex = currentImages.length - 1;
+    } else if (currentImageIndex >= currentImages.length) {
+        currentImageIndex = 0;
+    }
+    
+    showImage(currentImageIndex);
+}
+
+// Make functions globally available
+window.showImage = showImage;
+window.changeImage = changeImage;
 
 // Export for potential use in other scripts
 window.artifactsManager = {

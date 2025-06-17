@@ -2,22 +2,15 @@
 const artifactsData = {
     "mysterious-handbags": {
         title: "Mysterious Handbag Symbols",
-        era: "Multiple Civilizations • Various Periods",
-        image: "images/Artifacts/Mysterious/handbags.jpg",
-        overview: "One of the most intriguing mysteries in ancient art is the recurring appearance of handbag-like objects in the iconography of disparate civilizations separated by vast distances and time periods. These symbols appear in Sumerian, Mesoamerican, and other ancient cultures.",
-        context: "The 'handbag' symbol appears prominently in: Sumerian relief carvings from Mesopotamia (c. 3000 BCE), Göbekli Tepe's Pillar 43 in Turkey (c. 9600 BCE), Olmec stone carvings at La Venta, Mexico (c. 900 BCE), and Maori wood carvings in New Zealand. The consistency of this symbol across unconnected cultures has puzzled archaeologists and historians.",
-        significance: "In conventional archaeology, these objects are often interpreted as ritual buckets or containers used in religious ceremonies. The Sumerians called them 'banduddu' - buckets used to carry sacred water. However, their appearance across multiple unrelated cultures raises questions about their true meaning and possible common origin.",
-        mysteries: "Why does this specific symbol appear in so many unconnected ancient cultures? Could these represent: Sacred containers for ritual purposes? Symbols of divine knowledge or power? Representations of actual objects that were important across cultures? The consistency across continents and millennia remains one of archaeology's fascinating puzzles.",
-        category: ["mysterious"]
-    },
-    "multiple-handbag-depictions": {
-        title: "Multiple Handbag Depictions",
-        era: "Various Civilizations • 9600 BCE - 500 CE",
-        image: "images/Artifacts/Mysterious/manybags.jpg",
-        overview: "This compilation image showcases the remarkable consistency of the 'handbag' symbol across diverse ancient cultures spanning over 10,000 years. From Göbekli Tepe to Mesoamerica, from Sumeria to ancient Egypt, the same distinctive shape appears in the hands of gods, priests, and mythical beings.",
-        context: "The examples shown include: Göbekli Tepe, Turkey (9600 BCE) - carved on Pillar 43; Sumerian reliefs (3000 BCE) - carried by Anunnaki figures; Olmec monuments at La Venta (900 BCE); Assyrian palace reliefs showing winged beings; Egyptian hieroglyphs and tomb paintings; Toltec and Aztec depictions from Mexico. The geographical and temporal spread defies simple cultural transmission.",
-        significance: "This image compilation serves as compelling evidence for one of archaeology's most intriguing mysteries. The consistent depiction suggests: A shared symbolic meaning across cultures, possible evidence of ancient global contact or influence, representation of an important object or concept, or potential religious/spiritual significance that transcended cultural boundaries.",
-        mysteries: "How did the same symbol appear in so many disconnected cultures? The similarities are too specific to be coincidental - the handle, proportions, and context of use are remarkably consistent. Were these cultures in contact? Did they inherit this symbol from a common older source? What was so important about these objects that they appear in the most sacred contexts - in temples, tombs, and in the hands of deities? The mystery deepens when we consider that mainstream archaeology has no satisfactory explanation for this phenomenon.",
+        era: "Multiple Civilizations • 9600 BCE - 500 CE",
+        images: [
+            "images/Artifacts/Mysterious/handbags.jpg",  // Ancient relief carving showing the symbol
+            "images/Artifacts/Mysterious/manybags.jpg"   // Compilation showing multiple cultural examples
+        ],
+        overview: "One of the most intriguing mysteries in ancient art is the recurring appearance of handbag-like objects in the iconography of disparate civilizations separated by vast distances and over 10,000 years of time. From Göbekli Tepe to Mesoamerica, from Sumeria to ancient Egypt, the same distinctive shape appears in the hands of gods, priests, and mythical beings.",
+        context: "The 'handbag' symbol appears prominently across cultures: Göbekli Tepe, Turkey (9600 BCE) - carved on Pillar 43; Sumerian relief carvings from Mesopotamia (c. 3000 BCE) - carried by Anunnaki figures; Olmec stone carvings at La Venta, Mexico (c. 900 BCE); Assyrian palace reliefs showing winged beings; Egyptian hieroglyphs and tomb paintings; Toltec and Aztec depictions from Mexico; and Maori wood carvings in New Zealand. The geographical and temporal spread defies simple cultural transmission.",
+        significance: "In conventional archaeology, these objects are often interpreted as ritual buckets or containers used in religious ceremonies. The Sumerians called them 'banduddu' - buckets used to carry sacred water. However, the consistent depiction across cultures suggests: A shared symbolic meaning, possible evidence of ancient global contact or influence, representation of an important object or concept, or potential religious/spiritual significance that transcended cultural boundaries.",
+        mysteries: "Why does this specific symbol appear in so many unconnected ancient cultures? The similarities are too specific to be coincidental - the handle, proportions, and context of use are remarkably consistent. Were these cultures in contact? Did they inherit this symbol from a common older source? What was so important about these objects that they appear in the most sacred contexts - in temples, tombs, and in the hands of deities? The mystery deepens when we consider that mainstream archaeology has no satisfactory explanation for this phenomenon.",
         category: ["mysterious"]
     },
     "egyptian-cartouches": {

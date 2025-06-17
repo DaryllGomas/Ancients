@@ -13,8 +13,11 @@ All notable changes to the Ancient History Timeline project will be documented i
 - Egyptian Royal Cartouches artifact
 - Paleolithic Hand Axe artifact
 - Venus Figurines artifact
-- Multiple Handbag Depictions artifact (compilation image)
 - Organized artifacts into category folders (Art_Symbols, Mysterious, Tools_Weapons)
+- Image gallery functionality in artifact modals for viewing multiple images
+  - Navigation arrows and dots for switching between images
+  - Keyboard navigation (arrow keys) for gallery
+  - Automatic gallery detection for artifacts with multiple images
 
 ### Changed
 - Updated project progress tracker to reflect portal implementation
@@ -28,11 +31,11 @@ All notable changes to the Ancient History Timeline project will be documented i
 - Enhanced artifact categorization with specific tags for each type
 - Removed non-functional civilizations navigation link from both index.html and artifacts.html
 - Added papyrus texture background to artifacts page matching index.html design
+- Consolidated two handbag artifacts into single comprehensive entry with combined text and images
 
 ### Fixed
 - Artifact categorization issues:
   - Egyptian Cartouches now properly categorized as Art & Symbols only
-  - Multiple Handbag Depictions now properly categorized as Mysterious only
   - Mysterious Handbag Symbols now properly categorized as Mysterious only
 - Improved text readability on artifacts page:
   - Changed subtitle text from grey to gold (#d4af37) with text shadow
